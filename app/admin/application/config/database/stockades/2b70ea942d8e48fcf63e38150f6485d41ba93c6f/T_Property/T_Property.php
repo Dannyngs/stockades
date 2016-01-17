@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"frm_type":"1","table":{"crudTitle":"T_Property manager","crudRowsPerPage":"20"},"filter":{"list":["id","title","image","banner","content"],"atrr":{"id":{"alias":"id"}}},"column":{"list":["id","title","image","banner","content"],"atrr":{"id":{"alias":"id"}},"actived":["id","title","image"]},"ids":["title","image","banner","content"]}

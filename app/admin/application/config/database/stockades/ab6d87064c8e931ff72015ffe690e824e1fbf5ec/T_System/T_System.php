@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"frm_type":"1","table":{"crudTitle":"T_System manager","crudRowsPerPage":"20"},"filter":{"list":["id","phone","whatsapp","emai","address","site_title"],"atrr":{"id":{"alias":"id"}}},"column":{"list":["id","phone","whatsapp","emai","address","site_title"],"actived":["id","site_title"],"atrr":{"id":{"alias":"id"}}},"ids":["site_title","phone","whatsapp","emai","address"]}

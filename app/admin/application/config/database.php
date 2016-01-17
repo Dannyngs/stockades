@@ -51,7 +51,7 @@ $active_record = TRUE;
 $db['default']['hostname'] = '120.24.233.54'; // for pdo: mysql:host=localhost
 $db['default']['username'] = 'danny';
 $db['default']['password'] = 'Ud0891802183';
-$db['default']['database'] = 'feifung';
+$db['default']['database'] = 'stockades';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

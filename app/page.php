@@ -3,11 +3,10 @@ require_once 'init.php';
 
 
 
-foreach($projects as $p)        
-{
-    
-    echo $imgurl.$p['flag'];
-}
+              
+    $rs = $db->query("SELECT* FROM T_Page where id = ".$_GET['id']);
+    $page = $rs->fetch();   
+  print_r($page)
 
 ?>
 

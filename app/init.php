@@ -4,7 +4,7 @@
  
 //# Read from databases
     try{
-    $dsn = "mysql:host=120.24.233.54;dbname=feifung";
+    $dsn = "mysql:host=120.24.233.54;dbname=stockades";
     $db = new PDO($dsn, 'danny', 'Ud0891802183');
     $db->query('set names utf8;');
     }catch(Exception $e){
@@ -19,8 +19,12 @@
 //# Read System
     $rs = $db->query("SELECT* FROM T_System");
     $system = $rs->fetch();
-   
-   
+
+  
+                
+    $rs = $db->query("SELECT* FROM T_Project");
+    $projects = $rs->fetchAll();   
+  
  
  //# Multi-Language    
 session_start();
@@ -38,7 +42,7 @@ $current_lang = $_SESSION['lang'];
 else
 {
     //# set default lang
-$current_lang = 'eng';
+$current_lang = 'chi';
 }
  
 switch ($current_lang) {

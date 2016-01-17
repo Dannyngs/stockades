@@ -1,23 +1,4 @@
 
- <footer>
-     
-     <div class="footer-down">
-      <div class="container clearfix">
-        
-        <div class="eight columns">
-         <span class="copyright">
-         Design by <a target="blank" href="http://www.c-m.hk">Creation Media</a>.
-        </span>
-        </div><!-- End copyright -->
-        
-        
-        
-      </div><!-- End container -->
-     </div><!-- End footer-top -->
-     
-   </footer><!-- <<< End Footer >>> -->
-  
-  </div><!-- End wrap -->
  <!-- build:js(app) /_/js/main.js -->
   <script src="/_/js/jquery-1.9.1.min.js"></script> <!-- jQuery library -->
   <script src="/_/js/jquery.easing.1.3.min.js"></script> <!-- jQuery Easing --> 

@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"frm_type":"1","table":{"crudTitle":"T_Menu manager","crudRowsPerPage":"20"},"filter":{"list":["id","chi_title","url","parent_id"],"atrr":{"chi_title":{"alias":"title"},"id":{"alias":"id"}}},"column":{"list":["id","chi_title","url","parent_id"],"atrr":{"chi_title":{"alias":"title"},"id":{"alias":"id"}},"actived":["id","chi_title","url","parent_id"]},"ids":["chi_title","url","parent_id"]}

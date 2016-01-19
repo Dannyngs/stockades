@@ -20,8 +20,6 @@
     $rs = $db->query("SELECT* FROM T_System");
     $system = $rs->fetch();
 
-  
-                
     $rs = $db->query("SELECT* FROM T_Project");
     $projects = $rs->fetchAll();   
   

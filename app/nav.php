@@ -1,6 +1,6 @@
 
 
-              <ul id="nav">
+              <ul class="nav navbar-nav">
 <?php
 
   $rs = $db->query("SELECT* FROM T_Menu where parent_id = 0");
@@ -8,7 +8,7 @@
                  
                    foreach ($menu as $item){
                       
-                   echo "<li class='down-menu'>";
+                   echo "<li class='dropdown'>";
 
                       
                         echo "<a href='".$item['url']."'>".$item[$current_lang.'_title']."</a>";
@@ -20,7 +20,7 @@
                        if($srs){
                        $submenu = $srs->fetchAll();
                       
-                          echo "<ul>";
+                          echo "<ul class='dropdown-menu'>";
                               foreach ($submenu as $subitem){
                           
                                          echo "<li ><a href='".$subitem['url']."'>".$subitem[$current_lang.'_title']."</a>";
@@ -34,11 +34,7 @@
                        
                        
                       
-                       
-                      
-                    
-                  
- 
+  
 ?>
                             
 

@@ -1,26 +1,31 @@
+ <div class="footer pt15">
+       <img class="allw" src="/_/images/footer-bg.jpg">
+       <div>
+        <div class="container">
+           <div class="row">
+            <div class="col-md-8"><p>Copyright © 2015 年 基盛移民顾问有限公司 版权所有，不得转载</p></div>
+            <div class="col-md-4 text-right hidden-sm hidden-xs"><p>Design by <a href="http://www.c-m.hk">Creation Media</a></p></div>
+          </div>
+        </div>
+       </div>
+    </div>
 
  <!-- build:js(app) /_/js/main.js -->
-  <script src="/_/js/jquery-1.9.1.min.js"></script> <!-- jQuery library -->
-  <script src="/_/js/jquery.easing.1.3.min.js"></script> <!-- jQuery Easing --> 
-  <script src="/_/js/jquery-ui/jquery.ui.core.js"></script> <!-- jQuery Ui Core-->
-  <script src="/_/js/jquery-ui/jquery.ui.widget.js"></script> <!-- jQuery Ui Widget -->
-  <script src="/_/js/jquery-ui/jquery.ui.accordion.js"></script> <!-- jQuery Ui accordion--> 
-  <script src="/_/js/jquery-cookie.js"></script> <!-- jQuery cookie --> 
-  <script src="/_/js/ddsmoothmenu.js"></script> <!-- Nav Menu ddsmoothmenu -->
-  <script src="/_/js/jquery.flexslider.js"></script> <!-- Flex Slider  -->
-  <script src="/_/js/colortip.js"></script> <!-- Colortip Tooltip Plugin  -->
-  <script src="/_/js/tytabs.js"></script> <!-- jQuery Plugin tytabs  -->
-  <script src="/_/js/jquery.ui.totop.js"></script> <!-- UItoTop plugin  -->
-  <script src="/_/js/carousel.js"></script> <!-- jQuery Carousel  -->
-  <script src="/_/js/jquery.isotope.min.js"></script> <!-- Isotope Filtering  -->
-  <script src="/_/js/twitter/jquery.tweet.js"></script> <!-- jQuery Tweets -->
-  <script src="/_/js/jflickrfeed.min.js"></script> <!-- jQuery Flickr -->
-  <script src="/_/js/social-options.js"></script> <!-- social options , twitter, flickr.. -->
-  <script src="/_/js/doubletaptogo.js"></script> <!-- Touch-friendly Script  -->
-  <script src="/_/js/fancybox/jquery.fancybox.js"></script> <!-- jQuery FancyBox -->
-  <script src="/_/js/jquery.sticky.js"></script> <!-- jQuery Sticky -->
-  <script src="/_/js/custom.js"></script> 
+  <script src="/_/bower_components/jquery/dist/jquery.min.js"></script> <!-- jQuery library -->
+<script src="/_/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/_/js/bootstrap-select.min.js"></script>
+   <script type="text/javascript">
+     $(window).on('load', function () {
 
+  $('.selectpicker').selectpicker({
+  style: 'btn-info'
+  
+});
+  
+        });
+  
+      
+     </script>
   <!-- endbuild -->
 
 </body>

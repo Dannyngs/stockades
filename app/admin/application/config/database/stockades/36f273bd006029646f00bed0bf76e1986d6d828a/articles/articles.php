@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"frm_type":"1","table":{"crudTitle":"articles manager","crudRowsPerPage":"20"},"filter":{"list":["id","article_title","category_id","article_date","article_summary","article_content"],"atrr":{"id":{"alias":"id"}}},"column":{"list":["id","article_title","category_id","article_date","article_summary","article_content"],"atrr":{"id":{"alias":"id"}},"actived":["id","article_title","article_summary"]},"ids":["id","article_title","article_date","article_summary","article_content"]}

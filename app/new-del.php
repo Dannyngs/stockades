@@ -2,25 +2,27 @@
 require_once 'init.php';
 
 
-  
-                
-   $rs = $db->query("SELECT* FROM T_Project where id = ".$_GET['id']);
-   $project = $rs->fetch();   
-  
+
+              
+    $rs = $db->query("SELECT* FROM articles where id = ".$_GET['id']);
+    $artl = $rs->fetch();   
+ 
 
 ?>
 
 <?php require_once 'header.php' ?>
-  <div class="content">
-   		<div class="container">
-             <div class="row pt15">
-                 <img class="allw" src="<?php echo $imgurl.$project['image'];?>">
-                <div class="col-md-12">
-                  <h3 class="glod">移民<?php echo $project['title']?></h3>
-                </div>
 
-              <div class="col-md-12">
-                  <?php echo $project['content']?>
+   <div class="content">
+   		<div class="container">
+
+           
+            <div class="row pt15">
+                 <div class="col-md-12">
+                      <h4 class="glod text-center"><?php echo $artl['article_title']?></h4>
+                </div>
+                <div class="col-md-12">
+                    <hr class="yellow-lines">
+                  <?php echo $artl['article_content']?>
                   
 <!--
                 <p class="imma-tit">項目介紹</p>
@@ -32,7 +34,6 @@ require_once 'init.php';
               
               </div>
             </div>
-
    		 </div>
 
     </div>

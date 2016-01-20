@@ -51,7 +51,7 @@ require_once 'init.php';
             			</div>
 
             			<div class="col-md-3 spt20">
-            				<a href="page.php?id=1"><img class="allw" src="/_/images/index3.jpg"></a>
+            				<a href="page.php?id=3"><img class="allw" src="/_/images/index3.jpg"></a>
             			</div>
 
             			<div class="col-md-3 pt20">
@@ -59,7 +59,7 @@ require_once 'init.php';
             			</div>
 
             			<div class="col-md-3 pt20">
-            				<a href="page.php?id=2"><img class="allw" src="/_/images/index5.jpg"></a>
+            				<a href="page.php?id=1"><img class="allw" src="/_/images/index5.jpg"></a>
             			</div>
             		</div>
 

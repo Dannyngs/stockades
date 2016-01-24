@@ -69,10 +69,21 @@ require_once 'init.php';
                        <label class="control-label col-md-4">意向國家</label>
                        <div class="col-md-8">
                          <select id="contry" class="form-control selectpicker">
-                           <option >香港</option>
-                           <option>美國</option>
-                             <option>澳大利亞</option>
-                           
+                           <option value="hk">香港</option>
+                           <option value="us">美國</option>
+                           <option value="can">加拿大</option>
+                           <option value="aus">澳洲</option>
+                              <option value="hung">匈牙利</option>
+                              <option value="sp">西班牙</option>
+                              <option value="gr">希臘</option>
+                              <option value="spls">塞浦路斯</option>
+                              <option value="st">聖基茨</option>
+                              <option value="glnd">格林納達</option>
+                              <option value="wnal">瓦努阿圖</option>
+                              <option value="kor">韓國</option>
+                              <option value="tw">臺灣</option>
+                              <option value="phl">菲律賓</option>
+                             
                          </select>
                      </div>
                    </div>
@@ -80,20 +91,22 @@ require_once 'init.php';
                     <div class="form-group">
                        <label class="control-label col-md-4">英語能力</label>
                        <div class="col-md-8">
-                         <select class="form-control selectpicker">
-                           <option>先生</option>
-                           <option>小姐</option>
+                         <select id="eng" class="form-control selectpicker">
+                           <option value="gr">不會</option>
+                           <option value="gr">會一點</option>
+                           <option value="gr">良好</option>
+                           <option value="gr">流利</option>
                            
                          </select>
                      </div>
                    </div>
 
                     <div class="form-group">
-                       <label class="control-label col-md-4">移民意向</label>
+                       <label class="control-label col-md-4">移民意願</label>
                        <div class="col-md-8">
                          <select class="form-control selectpicker">
-                           <option>先生</option>
-                           <option>小姐</option>
+                           <option>A</option>
+                           <option>B</option>
                            
                          </select>
                      </div>
@@ -103,8 +116,9 @@ require_once 'init.php';
                        <label class="control-label col-md-4">所在地區</label>
                        <div class="col-md-8">
                          <select class="form-control selectpicker">
-                           <option>先生</option>
-                           <option>小姐</option>
+                           <option>中國大陸</option>
+                           <option>香港</option>
+                           <option>澳門</option>
                            
                          </select>
                      </div>
@@ -143,7 +157,7 @@ require_once 'init.php';
                     <p class="mb0"><span class="zo" aria-hidden="true"></span><b>Fax:</b> <?php echo $system['fax'] ?></p>
                     <p class="mb0"><span class="mail" aria-hidden="true"></span><b>e-mail:</b><a class="black" href="mailto:<?php echo $system['emai'] ?>"> <?php echo $system['emai'] ?></a> </p>
 
-                    <p><a class="fb" href="<?php echo $system['facebook'] ?>"></a></p>
+                    <p><a class="fb" target="blank" href="<?php echo $system['facebook'] ?>"></a></p>
                   </div>
 
                 </div>

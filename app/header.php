@@ -57,16 +57,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-               <a class="navbar-brand hidden-xs " href="#"><img class="allw" src="/_/images/logo.png"></a>
-               <a class="navbar-brand visible-xs" href="#"><img width="220" src="/_/images/logo.png"></a>
+               <a class="navbar-brand hidden-xs " href="index.php"><img class="allw" src="/_/images/logo.png"></a>
+               <a class="navbar-brand visible-xs" href="index.php"><img width="220" src="/_/images/logo.png"></a>
             </div>
             <div class="navbar-right pt15 hidden-xs">
               <div class="phone">
-                <div><p><span></span>(852) 3904 1244</p></div>
+                <div><p><span></span><?php echo $system['office'] ?></p></div>
                 
               </div>
               <div class="whatsapp">
-                <div><p><span></span>(852) 9747 4319</p></div>
+                <div><p><span></span><?php echo $system['whatsapp'] ?></p></div>
               </div>
             </div>
 

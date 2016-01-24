@@ -14,10 +14,10 @@ require_once 'init.php';
    		<div class="container">
 
             <div class="row pt15">
-               <a class="contry1" href="">
+               <div class="contry1">
                  <img src="<?php echo $imgurl.$property['banner'];?>">
-                 <p>德國Berlin</p>
-               </a>
+                 <p><?php echo $property['title']?></p>
+               </div>
              
                 <div class="col-md-12 pt20">
                   <?php echo $property['content']?>

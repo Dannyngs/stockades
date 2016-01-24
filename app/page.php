@@ -21,7 +21,7 @@ require_once 'init.php';
             			
 
 
-            			<div class="col-md-12 pt20">
+            			<div class="col-md-12 pt20 fontg">
                             <?php echo $page['content'];?>
 <!--
             				<h3 class="glod text-center">基盛移民顧問有限公司</h3>

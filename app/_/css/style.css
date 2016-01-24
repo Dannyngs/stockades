@@ -18,10 +18,15 @@ a:hover{color:#ffad1c;}a:focus{outline:none;-moz-outline:none;}
 @media (min-width: 992px){
 	.col-md-14-1{width:7.14%;float:left;}
 }
-
+@media (min-width: 769px){
+    .contry p{top:330px;}
+.contry:hover p{top:0;}
+}
+    
+@media (max-width: 767px){.navbar-nav > li {display: block !important;}}
 @media (max-width: 768px){
 	.spt20{padding-top:20px;}
-	.navbar-nav > li {display: block !important;}
+	
 	.col-xs-14-2{width:14.28%;float:left;}
 
 }
@@ -46,7 +51,7 @@ a:hover{color:#ffad1c;}a:focus{outline:none;-moz-outline:none;}
 .nav > li > a{padding:15px 30px;font-size:16px;}
 .navbar-toggle{margin-top:25px;}
 .dropdown-menu li,.dropdown-menu li.allw,.dropdown-menu li.allw:nth-child(2){min-width:100px;text-align:center;border-top:1px #cecece dashed;}
-.dropdown-menu li:nth-child(1),.dropdown-menu li:nth-child(2){border:none;}
+.dropdown-menu li:nth-child(1){border:none;}
 .dropdown-menu{min-width: 206px;}.dropdown-menu > li > a{padding: 5px 20px;}
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{background-color:#fff;color:#a47400;}
 
@@ -68,8 +73,8 @@ a:hover{color:#ffad1c;}a:focus{outline:none;-moz-outline:none;}
 .list-unstyled li a:hover,.list-unstyled li a:focus{color:#ffad1c;}
 
 .contry,.contry1{display:block;overflow:hidden;position:relative;}
-.contry p,.contry1 p{position:absolute;background-color:rgba(0,0,0,0.5);left:0;right:0;bottom:0;margin-bottom:0;color:#fff;font-size:1.8rem; padding-left:15px;line-height:32px;transition: top 0.5s ease 0s;top:330px;}
-.contry:hover p{top:0;}
+.contry p,.contry1 p{position:absolute;background-color:rgba(0,0,0,0.5);left:0;right:0;bottom:0;margin-bottom:0;color:#fff;font-size:1.8rem; padding-left:15px;line-height:32px;transition: top 0.5s ease 0s;}
+
 
 .fb{display:block;width:36px;height:36px;background:url(../images/iconb.png) no-repeat;background-position:0 -32px;margin-top:15px;}
 .dropdown-menu.inner li{width:100%}
@@ -84,3 +89,5 @@ a:hover{color:#ffad1c;}a:focus{outline:none;-moz-outline:none;}
 .proj h4{background-color:#ff9e33;padding-left:15px;font-weight:600;margin-bottom:0!important;font-size: 14px;line-height:30px;}
 
 .bootstrap-select .btn:focus{outline:none!important;-moz-outline:none!important;}
+.navbar-default .navbar-collapse{background:#ff9e33;}
+.fontg h4{color:#915c00;}

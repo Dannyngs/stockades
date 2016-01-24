@@ -3,12 +3,12 @@
               <ul class="nav navbar-nav">
 <?php
 
-  $rs = $db->query("SELECT* FROM T_Menu where parent_id = 0");
+  $rs = $db->query("SELECT* FROM T_Menu where parent_id = 0  order by sort");
     $menu = $rs->fetchAll();
                  
                    foreach ($menu as $item){
                       
-                       $srs = $db->query("SELECT* FROM T_Menu where parent_id =".$item['id']);
+                       $srs = $db->query("SELECT* FROM T_Menu where parent_id =".$item['id']." order by sort");
                        $submenu = $srs->fetchAll();
                        
                        if($submenu){

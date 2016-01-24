@@ -19,6 +19,7 @@ require_once 'init.php';
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
     
   </ol>
 
@@ -26,7 +27,8 @@ require_once 'init.php';
   <div class="carousel-inner" role="listbox">
     <div class="item active"><img class="allw" src="/_/images/news1.jpg"/></div>
 
-    <div class="item"><img class="allw" src="/_/images/news1.jpg"/></div>
+    <div class="item"><img class="allw" src="/_/images/news2.jpg"/></div>
+     <div class="item"><img class="allw" src="/_/images/news3.jpg"/></div>
     
   </div>
 
@@ -42,13 +44,7 @@ require_once 'init.php';
 </div>
          </div>
 
-            <div class="row pt15">
-            
-            	<img class="allw" src="/_/images/news2.jpg" />
-              <img class="allw pt15" src="/_/images/news3.jpg" />
-
-            </div>
-
+          
              <div class="row pt15">
                 <div class="col-md-12">
                   <h3 class="glod">移民項目介紹</h3>

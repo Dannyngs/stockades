@@ -19,7 +19,7 @@ require_once 'init.php';
                   <h3 class="glod">移民<?php echo $project['title']?></h3>
                 </div>
 
-              <div class="col-md-12">
+              <div class="col-md-12 proj">
                   <?php echo $project['content']?>
                   
 <!--

@@ -25,7 +25,7 @@ require_once 'init.php';
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active"><img class="allw" src="/_/images/news1.jpg"/></div>
+    <div class="item active"><img class="allw" src="/_/images/news4.jpg"/></div>
 
     <div class="item"><img class="allw" src="/_/images/news2.jpg"/></div>
      <div class="item"><img class="allw" src="/_/images/news3.jpg"/></div>

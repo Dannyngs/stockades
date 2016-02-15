@@ -14,34 +14,13 @@ require_once 'init.php';
   <div class="content">
    		<div class="container">
          <div class="row pt15">
-           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          
+   <img class="allw" src="/_/images/news4.jpg"/>
+
+    <img class="allw pt15" src="/_/images/news2.jpg"/>
+    <img class="allw pt15" src="/_/images/news3.jpg"/>
     
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active"><img class="allw" src="/_/images/news4.jpg"/></div>
-
-    <div class="item"><img class="allw" src="/_/images/news2.jpg"/></div>
-     <div class="item"><img class="allw" src="/_/images/news3.jpg"/></div>
-    
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-   
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-   
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+ 
          </div>
 
           
@@ -54,7 +33,7 @@ require_once 'init.php';
             <div class="row" style="margin-top:-15px;">
               <hr class="yellow-lines" />
               <div class="col-md-12">
-               <?php echo $system['ab_pro']?>
+               <?php echo $system['project_pro']?>
               </div>
             </div>
 
